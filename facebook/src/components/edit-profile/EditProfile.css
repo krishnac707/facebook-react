@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#edit-profile-main-div{
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    right: 0;
+    background-color: rgba(255, 255, 255, .8);
+    /* overflow: auto; */
+    width: 100%;
+}
+
+.edit-profile-body{
+    position: relative;
+    top: 14%;
+    left: 27%;
+    width: 51%;
+    height: 625px;
+    overflow: scroll;
+    overflow-x: visible;
+    /* overflow-y: visible; */
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.edit-profile-heading-body{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    /* margin-bottom: 2%; */
+}
+
+.edit-profile-heading-body>h2 {
+    width: 88%;
+    text-align: center;
+}
+
+.edit-profile-heading-body>div {
+    width: 5%;
+    border-radius: 50px;
+    background-color: #e6e7e9;
+
+}
+
+.edit-profile-heading-body>div>img {
+    padding-left: 4px;
+    width: 90%;
+    cursor: pointer;
+}
+
+.edit-profile-profile-picture-div{
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-profile-profile-picture-div>span{
+    color: #1877F2;
+}
+
+.circle-profile-picture-edit-profile{
+    width: 200px;
+    height: 192px;
+    border-radius: 100px;
+    margin: auto;
+    /* border: 1px solid black; */
+    /* margin-bottom: 2%; */
+}
+
+.circle-profile-picture-edit-profile>img{
+    /* margin-left: 20%; */
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+.profile-edit-cover-photo-div{
+    width: 100%;
+    border-radius: 6px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.profile-edit-cover-photo-div>img{
+    width: 100%;
+}
+
+.customize-your-intro-profile-edit{
+    width: 100%;
+    padding: 3%;
+    
+}
+
+.customize-your-intro-profile-edit-inside{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hat-icon-profile-edit-div{
+    width: 10%;
+}
+
+.hat-icon-profile-edit-div>img{
+    width: 75%;
+    object-fit: contain;
+}
+
+.profile-edit-study-location{
+    width: 85%;
+}
+
+.profile-edit-cover-photo-div-1{
+    margin: auto;
+    padding: 3%;
+    width: 100%;
+}
+
+.profile-edit-cover-photo-div-1>img{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.profile-edit-about-info-button{
+    width: 94%;
+    margin: 3%;
+    border: none;
+    outline: none;
+    padding: 2%;
+    background-color: #E7F3FF;
+    border-radius: 6px;
+    font-weight: 700;
+    color:#1877F2;
+}

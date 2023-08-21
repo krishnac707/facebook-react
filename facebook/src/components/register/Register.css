@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#register-div-body {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    right: 0;
+    background-color: rgba(255, 255, 255, .8);
+    height: 100vh;
+    width: 100%;
+}
+
+.register-inside-div {
+    position: relative;
+    top: 12%;
+    left: 35%;
+    width: 32%;
+    border-radius: 6px;
+    background-color: #FFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.register-sign-up-header-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #dadde1;
+    padding: 2% 3% 2% 5%;
+}
+
+.register-sign-up-header-left-div {
+    width: 85%;
+}
+
+.register-sign-up-header-right-div {
+    width: 7%;
+}
+
+.register-sign-up-header-left-div>h1 {
+    color: #1c1e21;
+    font-weight: 500;
+}
+
+.register-sign-up-header-right-div>img {
+    cursor: pointer;
+    width: 100%;
+}
+
+.register-form-body-div {
+    width: 100%;
+    padding: 4%;
+}
+
+.register-full-name-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.register-full-name-div>input {
+    width: 49%;
+    padding: 2%;
+    font-size: 17px;
+    /* outline-color: red; */
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    color: #1d2129;
+    background-color: #f5f6f7;
+    /* margin-bottom: 3%; */
+}
+
+.register-full-name-div>input::placeholder {
+    color: #8d949e;
+}
+
+.register-number-email-div {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.register-number-email-div>input {
+    width: 100%;
+    padding: 2%;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    color: #1d2129;
+    background-color: #f5f6f7;
+}
+
+.register-password-div-css {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.register-password-div-css>input {
+    width: 100%;
+    padding: 2%;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    color: #1d2129;
+    background-color: #f5f6f7;
+}
+
+.register-date-of-birth-heading {
+    font-size: 12px;
+    color: #606770;
+}
+
+.register-date-of-birth-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.form-select {
+    display: block;
+    width: 32%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #a3a3a3;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.register-form-gender-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-form-male-div{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    padding: 2%;
+}
+
+.register-form-male-div>label{
+    width: 80%;
+}
+.register-form-male-div>input{
+    width: 13%;
+}
+
+.register-form-info-para-div-css{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #777;
+    font-size: 11px;
+}
+
+.register-learn-more-span-css{
+    color: #385898;
+    cursor: pointer;
+}
+
+.register-form-term-para-div-css{
+    /* margin-top: 3%;
+    margin-bottom: 3%; */
+    color: #777;
+    font-size: 11px;
+}
+
+.register-submit-button-css{
+    width: 54%;
+    margin: 4% 23%;
+    font-weight: 600;
+    text-align: center;
+    font-size: 17px;
+    line-height: 38px;
+    background-color: #00a400;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+

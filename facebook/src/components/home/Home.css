@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-body {
+    width: 100%;
+    padding-top: 62px;
+    background-color: #f0f2f5;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.left-home-div {
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+    /* overflow-y: hidden; */
+    height: 550px;
+    background-color: transparent;
+}
+
+.home-left-side-menu {
+    width: 80%;
+}
+
+.home-left-menu-content {
+    height: 37px;
+    padding-top: 2%;
+    font-weight: 700;
+}
+
+.home-left-menu-content:hover {
+    background-color: #dfe2e9;
+    border-radius: 6px;
+}
+
+.home-left-side-border-bottom {
+    width: 100%;
+    border-bottom: 1px solid #dfe2e9;
+}
+
+.middle-home-div {
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .1), 0 2px 6px rgba(0, 0, 0, .1);
+    margin: 20px 0 0;
+    height: fit-content;
+    padding: 20px 15px 28px 15px;
+}
+
+.newsfeed-home-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsfeed-home-div>div:nth-child(1) {
+    width: 10%;
+    border-radius: 50px;
+    height: 47px;
+}
+
+.newsfeed-home-div>div:nth-child(1)>img {
+    width: 90%;
+    border-radius: 50px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.home-person-name-div {
+    width: 80%;
+}
+
+.home-close-button-div {
+    width: 6%;
+    display: flex;
+    justify-content: end;
+    margin-top: -5%;
+}
+
+.home-main-picture-news-feed {
+    width: 100%;
+    object-fit: contain;
+}
+
+.home-main-picture-news-feed {
+    width: 100%;
+    height: fit-content;
+    margin-left: 23%;
+    margin-bottom: 2%;
+}
+
+.home-like-comment-div {
+    width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top: 1px solid #dfe2e9;
+    border-bottom: 1px solid #dfe2e9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-like-comment-div>div {
+    padding: 1%;
+    width: 32%;
+    text-align: center;
+}
+
+.home-like-comment-div>div:hover {
+    width: 32%;
+    text-align: center;
+    background-color: #f0f2f5;
+    border-radius: 4px;
+    padding: 1%;
+
+}
+
+.right-home-div {
+    width: 22%;
+}
+
+.right-home-div>div:nth-child(2){
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-home-div>div:nth-child(2)>div{
+    margin-top: 3%;
+    width: 12%;
+    border-radius: 50px;
+    height: 24px;
+    text-align: center;
+    background-color: white;
+}
+
+.right-home-div>div:nth-child(2)>h3{
+    width: 86%;
+    color: #65676B;
+    margin-top: 6px;
+}
+
+.add-story-add-post-div{
+    width: 100%;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 6px;
+    background-color: white;
+    
+}
+
+.add-post-home-page-div{
+    width: 100%;
+    display: flex;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #dfe2e9;
+    margin-bottom: 1%;
+    justify-content: space-between;
+}
+
+.home-add-post-profile-picture{
+    width: 15%;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.home-add-post-profile-picture>img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50px;
+    height: 33px;
+}
+
+.home-input-add-post-css{
+    width: 83%;
+    border-radius: 25px;
+    padding: 2%;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: #dfe2e9;
+}
+
+.add-post-multiple-content-div-home-page{
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-post-multiple-content-div-home-page>div:nth-child(1){
+    width: 22%;
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.add-post-multiple-content-div-home-page>div:nth-child(2){
+    width: 22%;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.add-post-multiple-content-div-home-page>div:nth-child(3){
+    width: 35%;
+    display: flex;
+    padding: 6px;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.add-post-multiple-content-div-home-page>div>span:nth-child(1)>img{
+    width: 24px;
+    height: 24px;
+}
